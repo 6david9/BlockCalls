@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<integer>0</integer>
+		<key>description</key>
+		<string>开启</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>1</integer>
+		<key>description</key>
+		<string>接听震动</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>2</integer>
+		<key>description</key>
+		<string>工作模式</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>3</integer>
+		<key>description</key>
+		<string>拦截返回状态</string>
+	</dict>
+</array>
+</plist>

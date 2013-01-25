@@ -11,4 +11,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <AddressBook/AddressBook.h>
+    #import <AddressBookUI/AddressBookUI.h>
+    #import <CoreLocation/CoreLocation.h>
+
+#define print_function_name()   NSLog(@"%s", __PRETTY_FUNCTION__)
+#define echo(str)               puts(#str)
 #endif

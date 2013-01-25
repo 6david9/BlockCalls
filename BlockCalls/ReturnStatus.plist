@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<integer>0</integer>
+		<key>description</key>
+		<string>恢复默认设置</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>1</integer>
+		<key>description</key>
+		<string>返回“是空号”</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>2</integer>
+		<key>description</key>
+		<string>返回“已失效”</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>3</integer>
+		<key>description</key>
+		<string>返回“已停机”</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>4</integer>
+		<key>description</key>
+		<string>返回“已关机”</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>返回“暂时无法接通”</string>
+	</dict>
+</array>
+</plist>

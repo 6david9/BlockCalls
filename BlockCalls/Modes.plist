@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<integer>0</integer>
+		<key>description</key>
+		<string>拦截所有</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>1</integer>
+		<key>description</key>
+		<string>不拦截</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>2</integer>
+		<key>description</key>
+		<string>拦截黑名单</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>3</integer>
+		<key>description</key>
+		<string>只允许白名单</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<integer>4</integer>
+		<key>description</key>
+		<string>拒绝陌生人</string>
+	</dict>
+</array>
+</plist>

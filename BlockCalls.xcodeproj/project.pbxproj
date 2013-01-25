@@ -16,11 +16,32 @@
 		081FA27916A17D5800BA6436 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 081FA27816A17D5800BA6436 /* Default.png */; };
 		081FA27B16A17D5800BA6436 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 081FA27A16A17D5800BA6436 /* Default@2x.png */; };
 		081FA27D16A17D5800BA6436 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 081FA27C16A17D5800BA6436 /* Default-568h@2x.png */; };
-		081FA28016A17D5800BA6436 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081FA27F16A17D5800BA6436 /* CBViewController.m */; };
-		081FA28316A17D5800BA6436 /* CBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081FA28116A17D5800BA6436 /* CBViewController.xib */; };
 		081FA28A16A17D6800BA6436 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081FA28916A17D6800BA6436 /* CoreTelephony.framework */; };
 		081FA2DC16A1C64700BA6436 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081FA2DB16A1C64700BA6436 /* AudioToolbox.framework */; };
 		081FA2E316A1C89800BA6436 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081FA2E216A1C89800BA6436 /* CoreLocation.framework */; };
+		0862189D16AD13FA000C6382 /* CBModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0862189B16AD13FA000C6382 /* CBModeViewController.m */; };
+		0862189E16AD13FA000C6382 /* CBModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0862189C16AD13FA000C6382 /* CBModeViewController.xib */; };
+		086218A216AD1417000C6382 /* CBReturnStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086218A016AD1417000C6382 /* CBReturnStatusViewController.m */; };
+		086218A316AD1417000C6382 /* CBReturnStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086218A116AD1417000C6382 /* CBReturnStatusViewController.xib */; };
+		0896A01516AE8666004AA03E /* Modes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0896A01416AE8666004AA03E /* Modes.plist */; };
+		0896A01716AE8715004AA03E /* ReturnStatus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0896A01616AE8715004AA03E /* ReturnStatus.plist */; };
+		0896A01916AE8834004AA03E /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0896A01816AE8834004AA03E /* List.plist */; };
+		0896A03816AE9AA3004AA03E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896A02E16AE9AA3004AA03E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0896A03916AE9AA3004AA03E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896A03016AE9AA3004AA03E /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0896A03A16AE9AA3004AA03E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896A03216AE9AA3004AA03E /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0896A03B16AE9AA3004AA03E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896A03416AE9AA3004AA03E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0896A03D16AE9AA3004AA03E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896A03716AE9AA3004AA03E /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0896A03F16AE9C59004AA03E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0896A03E16AE9C59004AA03E /* libsqlite3.dylib */; };
+		08E3A35D16AC4147009C29E4 /* CBBlackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E3A35B16AC4147009C29E4 /* CBBlackViewController.m */; };
+		08E3A35E16AC4147009C29E4 /* CBBlackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E3A35C16AC4147009C29E4 /* CBBlackViewController.xib */; };
+		08E3A36216AC4153009C29E4 /* CBWhiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E3A36016AC4153009C29E4 /* CBWhiteViewController.m */; };
+		08E3A36316AC4153009C29E4 /* CBWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E3A36116AC4153009C29E4 /* CBWhiteViewController.xib */; };
+		08E3A36716AC4162009C29E4 /* CBPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E3A36516AC4162009C29E4 /* CBPreferenceViewController.m */; };
+		08E3A36816AC4162009C29E4 /* CBPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E3A36616AC4162009C29E4 /* CBPreferenceViewController.xib */; };
+		08FF0FD616AEAA25006A426F /* CBRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF0FD516AEAA25006A426F /* CBRecord.m */; };
+		08FF0FDB16AEAEFA006A426F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FF0FDA16AEAEFA006A426F /* AddressBookUI.framework */; };
+		08FF0FDD16AEAF02006A426F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FF0FDC16AEAF02006A426F /* AddressBook.framework */; };
+		08FF0FE116AEAF7D006A426F /* CBPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF0FDF16AEAF7D006A426F /* CBPeoplePickerNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +58,45 @@
 		081FA27816A17D5800BA6436 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		081FA27A16A17D5800BA6436 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		081FA27C16A17D5800BA6436 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		081FA27E16A17D5800BA6436 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
-		081FA27F16A17D5800BA6436 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
-		081FA28216A17D5800BA6436 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController.xib; sourceTree = "<group>"; };
 		081FA28916A17D6800BA6436 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		081FA28F16A1926B00BA6436 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		081FA2DB16A1C64700BA6436 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		081FA2E216A1C89800BA6436 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0862189A16AD13FA000C6382 /* CBModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBModeViewController.h; sourceTree = "<group>"; };
+		0862189B16AD13FA000C6382 /* CBModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBModeViewController.m; sourceTree = "<group>"; };
+		0862189C16AD13FA000C6382 /* CBModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBModeViewController.xib; sourceTree = "<group>"; };
+		0862189F16AD1417000C6382 /* CBReturnStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBReturnStatusViewController.h; sourceTree = "<group>"; };
+		086218A016AD1417000C6382 /* CBReturnStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBReturnStatusViewController.m; sourceTree = "<group>"; };
+		086218A116AD1417000C6382 /* CBReturnStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBReturnStatusViewController.xib; sourceTree = "<group>"; };
+		0896A01416AE8666004AA03E /* Modes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Modes.plist; sourceTree = "<group>"; };
+		0896A01616AE8715004AA03E /* ReturnStatus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReturnStatus.plist; sourceTree = "<group>"; };
+		0896A01816AE8834004AA03E /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		0896A02D16AE9AA3004AA03E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		0896A02E16AE9AA3004AA03E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		0896A02F16AE9AA3004AA03E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		0896A03016AE9AA3004AA03E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0896A03116AE9AA3004AA03E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		0896A03216AE9AA3004AA03E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		0896A03316AE9AA3004AA03E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		0896A03416AE9AA3004AA03E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0896A03616AE9AA3004AA03E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		0896A03716AE9AA3004AA03E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		0896A03E16AE9C59004AA03E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		08E3A35A16AC4147009C29E4 /* CBBlackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBlackViewController.h; sourceTree = "<group>"; };
+		08E3A35B16AC4147009C29E4 /* CBBlackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBlackViewController.m; sourceTree = "<group>"; };
+		08E3A35C16AC4147009C29E4 /* CBBlackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBBlackViewController.xib; sourceTree = "<group>"; };
+		08E3A35F16AC4153009C29E4 /* CBWhiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWhiteViewController.h; sourceTree = "<group>"; };
+		08E3A36016AC4153009C29E4 /* CBWhiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWhiteViewController.m; sourceTree = "<group>"; };
+		08E3A36116AC4153009C29E4 /* CBWhiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBWhiteViewController.xib; sourceTree = "<group>"; };
+		08E3A36416AC4162009C29E4 /* CBPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPreferenceViewController.h; sourceTree = "<group>"; };
+		08E3A36516AC4162009C29E4 /* CBPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPreferenceViewController.m; sourceTree = "<group>"; };
+		08E3A36616AC4162009C29E4 /* CBPreferenceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBPreferenceViewController.xib; sourceTree = "<group>"; };
+		08FF0FD416AEAA25006A426F /* CBRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRecord.h; sourceTree = "<group>"; };
+		08FF0FD516AEAA25006A426F /* CBRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRecord.m; sourceTree = "<group>"; };
+		08FF0FDA16AEAEFA006A426F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		08FF0FDC16AEAF02006A426F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		08FF0FDE16AEAF7D006A426F /* CBPeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		08FF0FDF16AEAF7D006A426F /* CBPeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPeoplePickerNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08FF0FDD16AEAF02006A426F /* AddressBook.framework in Frameworks */,
+				08FF0FDB16AEAEFA006A426F /* AddressBookUI.framework in Frameworks */,
+				0896A03F16AE9C59004AA03E /* libsqlite3.dylib in Frameworks */,
 				081FA2E316A1C89800BA6436 /* CoreLocation.framework in Frameworks */,
 				081FA2DC16A1C64700BA6436 /* AudioToolbox.framework in Frameworks */,
 				081FA28A16A17D6800BA6436 /* CoreTelephony.framework in Frameworks */,
@@ -66,9 +122,9 @@
 		081FA25716A17D5700BA6436 = {
 			isa = PBXGroup;
 			children = (
-				081FA2E216A1C89800BA6436 /* CoreLocation.framework */,
-				081FA2DB16A1C64700BA6436 /* AudioToolbox.framework */,
-				081FA28916A17D6800BA6436 /* CoreTelephony.framework */,
+				08FF0FDC16AEAF02006A426F /* AddressBook.framework */,
+				08FF0FDA16AEAEFA006A426F /* AddressBookUI.framework */,
+				0896A02C16AE9AA3004AA03E /* FMDB */,
 				081FA26C16A17D5800BA6436 /* BlockCalls */,
 				081FA26516A17D5800BA6436 /* Frameworks */,
 				081FA26316A17D5800BA6436 /* Products */,
@@ -86,6 +142,10 @@
 		081FA26516A17D5800BA6436 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0896A03E16AE9C59004AA03E /* libsqlite3.dylib */,
+				081FA2E216A1C89800BA6436 /* CoreLocation.framework */,
+				081FA2DB16A1C64700BA6436 /* AudioToolbox.framework */,
+				081FA28916A17D6800BA6436 /* CoreTelephony.framework */,
 				081FA26616A17D5800BA6436 /* UIKit.framework */,
 				081FA26816A17D5800BA6436 /* Foundation.framework */,
 				081FA26A16A17D5800BA6436 /* CoreGraphics.framework */,
@@ -96,12 +156,10 @@
 		081FA26C16A17D5800BA6436 /* BlockCalls */ = {
 			isa = PBXGroup;
 			children = (
-				081FA27516A17D5800BA6436 /* CBAppDelegate.h */,
-				081FA27616A17D5800BA6436 /* CBAppDelegate.m */,
-				081FA27E16A17D5800BA6436 /* CBViewController.h */,
-				081FA27F16A17D5800BA6436 /* CBViewController.m */,
-				081FA28116A17D5800BA6436 /* CBViewController.xib */,
-				081FA28F16A1926B00BA6436 /* Header.h */,
+				08E3A36D16AC44FE009C29E4 /* Shared */,
+				08E3A36A16AC44CF009C29E4 /* Black List */,
+				08E3A36B16AC44DA009C29E4 /* White List */,
+				08E3A36C16AC44E4009C29E4 /* Preference */,
 				081FA26D16A17D5800BA6436 /* Supporting Files */,
 			);
 			path = BlockCalls;
@@ -110,6 +168,7 @@
 		081FA26D16A17D5800BA6436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08FF0FD816AEAE9F006A426F /* keys */,
 				081FA26E16A17D5800BA6436 /* BlockCalls-Info.plist */,
 				081FA26F16A17D5800BA6436 /* InfoPlist.strings */,
 				081FA27216A17D5800BA6436 /* main.m */,
@@ -119,6 +178,108 @@
 				081FA27C16A17D5800BA6436 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		086218A416AD141B000C6382 /* Return Status */ = {
+			isa = PBXGroup;
+			children = (
+				0862189F16AD1417000C6382 /* CBReturnStatusViewController.h */,
+				086218A016AD1417000C6382 /* CBReturnStatusViewController.m */,
+				086218A116AD1417000C6382 /* CBReturnStatusViewController.xib */,
+			);
+			name = "Return Status";
+			sourceTree = "<group>";
+		};
+		086218A516AD1425000C6382 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				0862189A16AD13FA000C6382 /* CBModeViewController.h */,
+				0862189B16AD13FA000C6382 /* CBModeViewController.m */,
+				0862189C16AD13FA000C6382 /* CBModeViewController.xib */,
+			);
+			name = Mode;
+			sourceTree = "<group>";
+		};
+		0896A02C16AE9AA3004AA03E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0896A02D16AE9AA3004AA03E /* FMDatabase.h */,
+				0896A02E16AE9AA3004AA03E /* FMDatabase.m */,
+				0896A02F16AE9AA3004AA03E /* FMDatabaseAdditions.h */,
+				0896A03016AE9AA3004AA03E /* FMDatabaseAdditions.m */,
+				0896A03116AE9AA3004AA03E /* FMDatabasePool.h */,
+				0896A03216AE9AA3004AA03E /* FMDatabasePool.m */,
+				0896A03316AE9AA3004AA03E /* FMDatabaseQueue.h */,
+				0896A03416AE9AA3004AA03E /* FMDatabaseQueue.m */,
+				0896A03616AE9AA3004AA03E /* FMResultSet.h */,
+				0896A03716AE9AA3004AA03E /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = BlockCalls/FMDB;
+			sourceTree = "<group>";
+		};
+		08E3A36A16AC44CF009C29E4 /* Black List */ = {
+			isa = PBXGroup;
+			children = (
+				08E3A35A16AC4147009C29E4 /* CBBlackViewController.h */,
+				08E3A35B16AC4147009C29E4 /* CBBlackViewController.m */,
+				08E3A35C16AC4147009C29E4 /* CBBlackViewController.xib */,
+			);
+			name = "Black List";
+			sourceTree = "<group>";
+		};
+		08E3A36B16AC44DA009C29E4 /* White List */ = {
+			isa = PBXGroup;
+			children = (
+				08E3A35F16AC4153009C29E4 /* CBWhiteViewController.h */,
+				08E3A36016AC4153009C29E4 /* CBWhiteViewController.m */,
+				08E3A36116AC4153009C29E4 /* CBWhiteViewController.xib */,
+			);
+			name = "White List";
+			sourceTree = "<group>";
+		};
+		08E3A36C16AC44E4009C29E4 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				08E3A36416AC4162009C29E4 /* CBPreferenceViewController.h */,
+				08E3A36516AC4162009C29E4 /* CBPreferenceViewController.m */,
+				08E3A36616AC4162009C29E4 /* CBPreferenceViewController.xib */,
+				086218A516AD1425000C6382 /* Mode */,
+				086218A416AD141B000C6382 /* Return Status */,
+			);
+			name = Preference;
+			sourceTree = "<group>";
+		};
+		08E3A36D16AC44FE009C29E4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				081FA28F16A1926B00BA6436 /* Header.h */,
+				081FA27516A17D5800BA6436 /* CBAppDelegate.h */,
+				081FA27616A17D5800BA6436 /* CBAppDelegate.m */,
+				08FF0FDE16AEAF7D006A426F /* CBPeoplePickerNavigationController.h */,
+				08FF0FDF16AEAF7D006A426F /* CBPeoplePickerNavigationController.m */,
+				08FF0FD916AEAEC6006A426F /* Models */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		08FF0FD816AEAE9F006A426F /* keys */ = {
+			isa = PBXGroup;
+			children = (
+				0896A01816AE8834004AA03E /* List.plist */,
+				0896A01416AE8666004AA03E /* Modes.plist */,
+				0896A01616AE8715004AA03E /* ReturnStatus.plist */,
+			);
+			name = keys;
+			sourceTree = "<group>";
+		};
+		08FF0FD916AEAEC6006A426F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08FF0FD416AEAA25006A426F /* CBRecord.h */,
+				08FF0FD516AEAA25006A426F /* CBRecord.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +338,14 @@
 				081FA27916A17D5800BA6436 /* Default.png in Resources */,
 				081FA27B16A17D5800BA6436 /* Default@2x.png in Resources */,
 				081FA27D16A17D5800BA6436 /* Default-568h@2x.png in Resources */,
-				081FA28316A17D5800BA6436 /* CBViewController.xib in Resources */,
+				08E3A35E16AC4147009C29E4 /* CBBlackViewController.xib in Resources */,
+				08E3A36316AC4153009C29E4 /* CBWhiteViewController.xib in Resources */,
+				08E3A36816AC4162009C29E4 /* CBPreferenceViewController.xib in Resources */,
+				0862189E16AD13FA000C6382 /* CBModeViewController.xib in Resources */,
+				086218A316AD1417000C6382 /* CBReturnStatusViewController.xib in Resources */,
+				0896A01516AE8666004AA03E /* Modes.plist in Resources */,
+				0896A01716AE8715004AA03E /* ReturnStatus.plist in Resources */,
+				0896A01916AE8834004AA03E /* List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +358,18 @@
 			files = (
 				081FA27316A17D5800BA6436 /* main.m in Sources */,
 				081FA27716A17D5800BA6436 /* CBAppDelegate.m in Sources */,
-				081FA28016A17D5800BA6436 /* CBViewController.m in Sources */,
+				08E3A35D16AC4147009C29E4 /* CBBlackViewController.m in Sources */,
+				08E3A36216AC4153009C29E4 /* CBWhiteViewController.m in Sources */,
+				08E3A36716AC4162009C29E4 /* CBPreferenceViewController.m in Sources */,
+				0862189D16AD13FA000C6382 /* CBModeViewController.m in Sources */,
+				086218A216AD1417000C6382 /* CBReturnStatusViewController.m in Sources */,
+				0896A03816AE9AA3004AA03E /* FMDatabase.m in Sources */,
+				0896A03916AE9AA3004AA03E /* FMDatabaseAdditions.m in Sources */,
+				0896A03A16AE9AA3004AA03E /* FMDatabasePool.m in Sources */,
+				0896A03B16AE9AA3004AA03E /* FMDatabaseQueue.m in Sources */,
+				0896A03D16AE9AA3004AA03E /* FMResultSet.m in Sources */,
+				08FF0FD616AEAA25006A426F /* CBRecord.m in Sources */,
+				08FF0FE116AEAF7D006A426F /* CBPeoplePickerNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +382,6 @@
 				081FA27016A17D5800BA6436 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		081FA28116A17D5800BA6436 /* CBViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				081FA28216A17D5800BA6436 /* en */,
-			);
-			name = CBViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,7 +409,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -259,7 +430,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -269,7 +440,7 @@
 		081FA28716A17D5800BA6436 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockCalls/BlockCalls-Prefix.pch";
 				INFOPLIST_FILE = "BlockCalls/BlockCalls-Info.plist";
@@ -281,7 +452,7 @@
 		081FA28816A17D5800BA6436 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockCalls/BlockCalls-Prefix.pch";
 				INFOPLIST_FILE = "BlockCalls/BlockCalls-Info.plist";
