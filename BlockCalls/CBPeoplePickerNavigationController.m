@@ -65,6 +65,10 @@
                                        didSelectPhoneNumber:formatedNumber
                                                    withName:(__bridge NSString *)(name)];
         }
+        
+        CFRelease(multiValue);
+        CFRelease(name);
+        CFRelease(rawNumber);
     }
     
     return NO;

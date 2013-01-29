@@ -22,7 +22,7 @@
 
 void callBack(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-    // 是否开启?
+    // 功能是否开启?
     BOOL open = [[NSUserDefaults standardUserDefaults] boolForKey:kOpen];
     if (!open)
         return;
@@ -43,7 +43,7 @@ void callBack(CFNotificationCenterRef center, void *observer, CFStringRef name, 
             CTCall *call = (CTCall *)[(__bridge NSDictionary *)userInfo objectForKey:@"kCTCall"];
             
             // 来电号码
-            NSString *number = CTCallCopyAddress(NULL, call);
+            NSString *number = CFBridgingRelease(CTCallCopyAddress(NULL, call));
             
             /**********************************************
              *                    拦截模式                 *

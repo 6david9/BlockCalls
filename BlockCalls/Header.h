@@ -14,7 +14,7 @@
 CFNotificationCenterRef CTTelephonyCenterGetDefault(void); // 获得 TelephonyCenter (电话消息中心) 的引用
 void CTTelephonyCenterAddObserver(CFNotificationCenterRef center, const void *observer, CFNotificationCallback callBack, CFStringRef name, const void *object, CFNotificationSuspensionBehavior suspensionBehavior);
 void CTTelephonyCenterRemoveObserver(CFNotificationCenterRef center, const void *observer, CFStringRef name, const void *object);
-NSString *CTCallCopyAddress(void *, CTCall *call); //获得来电号码
+CFStringRef CTCallCopyAddress(void *, CTCall *call); //获得来电号码
 void CTCallDisconnect(CTCall *call); // 挂断电话
 void CTCallAnswer(CTCall *call); // 接电话
 void CTCallAddressBlocked(CTCall *call);
